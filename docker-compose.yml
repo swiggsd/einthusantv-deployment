@@ -1,0 +1,7 @@
+services:
+  einthusantv:
+    image: asaddon/einthusantv:latest
+    container_name: EinthusanTV
+    restart: unless-stopped
+    ports:
+      - "3000:3000"  # Exposing port 3000
